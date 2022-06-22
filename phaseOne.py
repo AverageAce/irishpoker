@@ -31,8 +31,7 @@ print(' ')
 print(f'   {difficultySelection.diffLevels[0]}       {difficultySelection.diffLevels[1]}       '
       f'{difficultySelection.diffLevels[2]}       {difficultySelection.diffLevels[3]}   ')
 
-cards = cardMechanics.cardLine(cardMechanics.firstFour[0],cardMechanics.firstFour[1],cardMechanics.firstFour[2],
-                               cardMechanics.firstFour[3])
+cards =
 '''
 cards = arrangeCards.cardLine(arrangeCards.faceDown[0],arrangeCards.faceDown[1],arrangeCards.faceDown[2],
                       arrangeCards.faceDown[3])
