@@ -17,312 +17,364 @@ class S2:
     suite = 'spades'
     faceValue = 2
     cardBack = '[ ]'
+    faceLabel = '2^'
 
 # 3 of Spades
 class S3:
     suite = 'spades'
     faceValue = 3
     cardBack = '[ ]'
+    faceLabel = '3^'
 
 # 4 of Spades
 class S4:
     suite = 'spades'
     faceValue = 4
     cardBack = '[ ]'
+    faceLabel = '4^'
 
 # 5 of Spades
 class S5:
     suite = 'spades'
     faceValue = 5
     cardBack = '[ ]'
+    faceLabel = '5^'
 
 # 6 of Spades
 class S6:
     suite = 'spades'
     faceValue = 6
     cardBack = '[ ]'
+    faceLabel = '6^'
 
 # 7 of Spades
 class S7:
     suite = 'spades'
     faceValue = 7
     cardBack = '[ ]'
+    faceLabel = '7^'
 
 # 8 of Spades
 class S8:
     suite = 'spades'
     faceValue = 8
     cardBack = '[ ]'
+    faceLabel = '8^'
 
 # 9 of Spades
 class S9:
     suite = 'spades'
     faceValue = 9
     cardBack = '[ ]'
+    faceLabel = '9^'
 
 # 10 of Spades
 class S10:
     suite = 'spades'
     faceValue = 10
     cardBack = '[ ]'
+    faceLabel = '10^'
 
 # J of Spades
 class SJ:
     suite = 'spades'
     faceValue = 11
     cardBack = '[ ]'
+    faceLabel = 'J^'
 
 # Q of Spades
 class SQ:
     suite = 'spades'
     faceValue = 12
     cardBack = '[ ]'
+    faceLabel = 'Q^'
 
 # K of Spades
 class SK:
     suite = 'spades'
     faceValue = 13
     cardBack = '[ ]'
+    faceLabel = 'K^'
 
 # A of Spades
 class SA:
     suite = 'spades'
     faceValue = 14
     cardBack = '[ ]'
+    faceLabel = 'A^'
 
 # 2 of Hearts
 class H2:
     suite = 'hearts'
     faceValue = 2
     cardBack = '[ ]'
+    faceLabel = '2v'
 
 # 3 of Hearts
 class H3:
     suite = 'hearts'
     faceValue = 3
     cardBack = '[ ]'
+    faceLabel = '3v'
 
 # 4 of Hearts
 class H4:
     suite = 'hearts'
     faceValue = 4
     cardBack = '[ ]'
+    faceLabel = '4v'
 
 # 5 of Hearts
 class H5:
     suite = 'hearts'
     faceValue = 5
     cardBack = '[ ]'
+    faceLabel = '5v'
 
 # 6 of Hearts
 class H6:
     suite = 'hearts'
     faceValue = 6
     cardBack = '[ ]'
+    faceLabel = '6v'
 
 # 7 of Hearts
 class H7:
     suite = 'hearts'
     faceValue = 7
     cardBack = '[ ]'
+    faceLabel = '7v'
 
 # 8 of Hearts
 class H8:
     suite = 'hearts'
     faceValue = 8
     cardBack = '[ ]'
+    faceLabel = '8v'
 
 # 9 of Hearts
 class H9:
     suite = 'hearts'
     faceValue = 9
     cardBack = '[ ]'
+    faceLabel = '9v'
 
 # 10 of Hearts
 class H10:
     suite = 'hearts'
     faceValue = 10
     cardBack = '[ ]'
+    faceLabel = '10v'
 
 # J of Hearts
 class HJ:
     suite = 'hearts'
     faceValue = 11
     cardBack = '[ ]'
+    faceLabel = 'Jv'
 
 # Q of Hearts
 class HQ:
     suite = 'hearts'
     faceValue = 12
     cardBack = '[ ]'
+    faceLabel = 'Qv'
 
 # K of Hearts
 class HK:
     suite = 'hearts'
     faceValue = 13
     cardBack = '[ ]'
+    faceLabel = 'Kv'
 
 # A of Hearts
 class HA:
     suite = 'hearts'
     faceValue = 14
     cardBack = '[ ]'
+    faceLabel = 'Av'
 
 # 2 of Clubs
 class C2:
     suite = 'clubs'
     faceValue = 2
     cardBack = '[ ]'
+    faceLabel = '2&'
 
 # 3 of Clubs
 class C3:
     suite = 'clubs'
     faceValue = 3
     cardBack = '[ ]'
+    faceLabel = '3&'
 
 # 4 of Clubs
 class C4:
     suite = 'clubs'
     faceValue = 4
     cardBack = '[ ]'
+    faceLabel = '4&'
 
 # 5 of Clubs
 class C5:
     suite = 'clubs'
     faceValue = 5
     cardBack = '[ ]'
+    faceLabel = '5&'
 
 # 6 of Clubs
 class C6:
     suite = 'clubs'
     faceValue = 6
     cardBack = '[ ]'
+    faceLabel = '6&'
 
 # 7 of Clubs
 class C7:
     suite = 'clubs'
     faceValue = 7
     cardBack = '[ ]'
+    faceLabel = '7&'
 
 # 8 of Clubs
 class C8:
     suite = 'clubs'
     faceValue = 8
     cardBack = '[ ]'
+    faceLabel = '8&'
 
 # 9 of Clubs
 class C9:
     suite = 'clubs'
     faceValue = 9
     cardBack = '[ ]'
+    faceLabel = '9&'
 
 # 10 of Clubs
 class C10:
     suite = 'clubs'
     faceValue = 10
     cardBack = '[ ]'
+    faceLabel = '10&'
 
 # J of Clubs
 class CJ:
     suite = 'clubs'
     faceValue = 11
     cardBack = '[ ]'
+    faceLabel = 'J&'
 
 # Q of Clubs
 class CQ:
     suite = 'clubs'
     faceValue = 12
     cardBack = '[ ]'
+    faceLabel = 'Q&'
 
 # K of Clubs
 class CK:
     suite = 'clubs'
     faceValue = 13
     cardBack = '[ ]'
+    faceLabel = 'K&'
 
 # A of Clubs
 class CA:
     suite = 'clubs'
     faceValue = 14
     cardBack = '[ ]'
+    faceLabel = 'A&'
 
 # 2 of Diamonds
 class D2:
     suite = 'diamonds'
     faceValue = 2
     cardBack = '[ ]'
+    faceLabel = '2o'
 
 # 3 of Diamonds
 class D3:
     suite = 'diamonds'
     faceValue = 3
     cardBack = '[ ]'
+    faceLabel = '3o'
 
 # 4 of Diamonds
 class D4:
     suite = 'diamonds'
     faceValue = 4
     cardBack = '[ ]'
+    faceLabel = '4o'
 
 # 5 of Diamonds
 class D5:
     suite = 'diamonds'
     faceValue = 5
     cardBack = '[ ]'
+    faceLabel = '5o'
 
 # 6 of Diamonds
 class D6:
     suite = 'diamonds'
     faceValue = 6
     cardBack = '[ ]'
+    faceLabel = '6o'
 
 # 7 of Diamonds
 class D7:
     suite = 'diamonds'
     faceValue = 7
     cardBack = '[ ]'
+    faceLabel = '7o'
 
 # 8 of Diamonds
 class D8:
     suite = 'diamonds'
     faceValue = 8
     cardBack = '[ ]'
+    faceLabel = '8o'
 
 # 9 of Diamonds
 class D9:
     suite = 'diamonds'
     faceValue = 9
     cardBack = '[ ]'
+    faceLabel = '9o'
 
 # 10 of Diamonds
 class D10:
     suite = 'diamonds'
     faceValue = 10
     cardBack = '[ ]'
+    faceLabel = '10o'
 
 # J of Diamonds
 class DJ:
     suite = 'diamonds'
     faceValue = 11
     cardBack = '[ ]'
+    faceLabel = 'Jo'
 
 # Q of Diamonds
 class DQ:
     suite = 'diamonds'
     faceValue = 12
     cardBack = '[ ]'
+    faceLabel = 'Qo'
 
 # K of Diamonds
 class DK:
     suite = 'diamonds'
     faceValue = 13
     cardBack = '[ ]'
+    faceLabel = 'Ko'
 
 # A of Diamonds
 class DA:
     suite = 'diamonds'
     faceValue = 14
     cardBack = '[ ]'
+    faceLabel = 'Ao'
 
 
 # # ASCII ART
