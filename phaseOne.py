@@ -57,52 +57,44 @@ if guessRB == 'red':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("Nice job!")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = True
-      #      return goodGuess
+
       elif card1.suite == 'diamonds':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("Nice job!")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = True
-      #      return goodGuess
+
       elif card1.suite == 'spades':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("You done fucked up.")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = False
-      #      return goodGuess
+
       elif card1.suite == 'clubs':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("You done fucked up!")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = False
-      #      return goodGuess
+
 
 if guessRB == 'black':
       if card1.suite == 'spades':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("Nice job!")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = True
-      #      return goodGuess
+
       elif card1.suite == 'clubs':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("Nice job!")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = True
-      #      return goodGuess
+
       elif card1.suite == 'hearts':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("You done fucked up.")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = False
-      #      return goodGuess
+
       elif card1.suite == 'diamonds':
             print(f'DEBUG: Choice selected: {guessRB}')
             print("You done fucked up.")
             print(f'The card was {card1.faceLabel} of {card1.suite}')
-            goodGuess = False
-      #      return goodGuess
+
 
 # Guess whether first card is red or black
 # Depending on result of guess, print whether the user has to give or take drinks
@@ -112,17 +104,91 @@ print(f'   {difficultySelection.diffLevels[0]}       {difficultySelection.diffLe
       f'{difficultySelection.diffLevels[2]}       {difficultySelection.diffLevels[3]}   ')
 
 print(f'   {card1.faceLabel}     {card2.cardBack}     {card3.cardBack}     {card4.cardBack}   ')
+time.sleep(1)
+print(" ")
 # print(f'   {card1.faceValue}       {card2.faceValue}       {card3.faceValue}       {card4.faceValue}   ')
 
 # guessRedBlack = cardMechanics.isRedOrBlack().guessRB
 
 
-'''
-# Guess whether second card is higher or lower than first card
-print(f"Your first card is worth {difficulty2} drinks")
-print("Guess whether your card is higher or lower than your first card")
+# # DEBUG
+# card1 = cardMechanics.cardDeck[0]
+# card2 = cardMechanics.cardDeck[0]
+# card3 = cardMechanics.cardDeck[1]
+# card4 = cardMechanics.cardDeck[2]
+#
+# print(f'   {difficultySelection.diffLevels[0]}       {difficultySelection.diffLevels[1]}       '
+#       f'{difficultySelection.diffLevels[2]}       {difficultySelection.diffLevels[3]}   ')
+#
+# print(f'   {card1.faceLabel}     {card2.faceLabel}     {card3.faceLabel}     {card4.faceLabel}   ')
+#
+# # Guess whether second card is higher or lower than first card
+print(f"Your second card is worth {difficultySelection.diffLevels[1]} drinks")
+time.sleep(1)
+print(" ")
+print("Guess whether your second card is higher or lower than your first card")
+time.sleep(1)
+print(" ")
+
+guessChoices = ('higher','lower')
+guessHL = input()
+
+if guessHL not in guessChoices:
+      print("Are you drunk already? Type 'Red' or 'Black'")
+      guessRB = input()
+
+elif guessHL in guessChoices:
+      print(f'DEBUG: User input: {guessHL}')
+
+if guessHL == 'higher':
+      if card2.faceValue == card1.faceValue:
+            for x in cardMechanics.cardDeck:
+                  if x == cardMechanics.cardDeck[0]:
+                        continue
+                  elif x == cardMechanics.cardDeck[1]:
+                        continue
+                  elif x == cardMechanics.cardDeck[2]:
+                        continue
+                  elif x == cardMechanics.cardDeck[3]:
+                        continue
+                  elif x == card2.faceValue:
+                        continue
+                  elif x != card2.faceValue:
+                        card2 = x
+                        break
+      if card2.faceValue > card1.faceValue:
+            print('Nice job!')
+      elif card2.faceValue < card1.faceValue:
+            print('You done fucked up, drink!')
+
+if guessHL == 'lower':
+      if card2.faceValue == card1.faceValue:
+            for x in cardMechanics.cardDeck:
+                  if x == cardMechanics.cardDeck[0]:
+                        continue
+                  elif x == cardMechanics.cardDeck[1]:
+                        continue
+                  elif x == cardMechanics.cardDeck[2]:
+                        continue
+                  elif x == cardMechanics.cardDeck[3]:
+                        continue
+                  elif x == card2.faceValue:
+                        continue
+                  elif x != card2.faceValue:
+                        card2 = x
+                        break
+      if card2.faceValue < card1.faceValue:
+            print('Nice job!')
+      elif card2.faceValue > card1.faceValue:
+            print('You done fucked up, drink!')
+
+print(f'   {difficultySelection.diffLevels[0]}       {difficultySelection.diffLevels[1]}       '
+      f'{difficultySelection.diffLevels[2]}       {difficultySelection.diffLevels[3]}   ')
+
+print(f'   {card1.faceLabel}     {card2.faceLabel}     {card3.cardBack}     {card4.cardBack}   ')
+
 # Depending on result of guess, print whether the user has to give or take drinks
-'''
+
 
 '''
 # Guess whether third card is in between or outside first two cards
